@@ -25,14 +25,4 @@ function singleCard(loc, confirmedCasesIndian, confirmedCasesForeign, discharged
     </tr>
     `
     return card;
-    // const card = `
-    // <div style="border: 2px solid black;">
-    //     <h1>${loc}</h1>
-    //     <h2>${confirmedCasesIndian}</h2>
-    //     <h2>${confirmedCasesForeign}</h2>
-    //     <h2>${discharged}</h2>
-    //     <h2>${deaths}</h2>
-    //     <h2>${totalConfirmed}</h2>
-    // </div>`
-    // return card;
 }
